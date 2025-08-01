@@ -1,0 +1,11 @@
+displayName: Proxy header middleware
+type: middleware
+
+import: github.com/sasd13/traefik-proxy-header
+
+summary: 'Adapt request headers'
+
+testData:
+  Debug: false
+  Adapters:
+    X-Api-Key: DEMO_KEY
