@@ -19,6 +19,7 @@ type Config struct {
 // CreateConfig creates the default plugin configuration.
 func CreateConfig() *Config {
 	return &Config{
+		Debug:    false,
 		Adapters: []string{},
 	}
 }
